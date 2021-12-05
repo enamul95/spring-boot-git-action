@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class SpringBootGitActionApplication {
-
+//
 	@GetMapping("/welcome")
 	public String welcome(){
 		return "Welcome to javatechie !";
