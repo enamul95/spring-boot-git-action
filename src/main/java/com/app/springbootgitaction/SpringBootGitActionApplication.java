@@ -11,7 +11,7 @@ public class SpringBootGitActionApplication {
 //
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "Welcome to javatechie !";
+		return "Welcome to enamul CICD Github action !";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootGitActionApplication.class, args);
